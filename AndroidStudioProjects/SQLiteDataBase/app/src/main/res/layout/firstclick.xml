@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MianActivity">
+
+
+   <TextView
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+android:background="@android:color/darker_gray"       android:text="Select Books "
+       android:textSize="20dp"
+       android:textStyle="italic"
+       android:textColor="@android:color/holo_orange_light"
+       android:allowUndo="true"
+
+       />
+
+
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#00bbff" />
+
+    <TextView
+        android:id="@+id/costaccounting"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#23ffff"
+        android:gravity="center_horizontal"
+        android:text="Cost Accounting"
+        android:textSize="29dp"
+        android:textStyle="italic" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#c2c2c2" />
+
+    <TextView
+        android:id="@+id/marketing"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+android:background="#eeaaf321"        android:gravity="center_horizontal"
+        android:text="Marketing"
+        android:textSize="29dp"
+        android:textStyle="italic" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#c2c2c2" />
+
+    <TextView
+        android:id="@+id/english"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#666f"
+        android:gravity="center_horizontal"
+        android:text="Englidh Composition"
+        android:textSize="29dp"
+        android:textStyle="italic" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#c2c2c2" />
+
+</LinearLayout>

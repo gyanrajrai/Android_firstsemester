@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="100">
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="60"
+            android:text="Enter Id"
+            android:textSize="20dp"
+            android:id="@+id/firtdatadaseeditid"/>
+
+
+
+
+
+
+        <EditText
+            android:id="@+id/firtsedittextnae"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="60"
+            android:hint="Enter Name"
+
+            android:textSize="20dp"/>
+
+
+        <EditText
+            android:id="@+id/firstdabaseedittextamont"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="60"
+            android:hint="Anter Amount "
+            android:textSize="20dp"
+
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <Button
+            android:id="@+id/firstdabasebtnadd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:text="ADD"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/firstbtncanceldatabase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:text="Cancel"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_red_light"/>
+    </LinearLayout>
+    </LinearLayout>
+
+

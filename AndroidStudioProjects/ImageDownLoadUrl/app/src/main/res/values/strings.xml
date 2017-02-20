@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">ImageDownLoadUrl</string>
+    <string name="menu_settings">Settings</string>
+    <string name="button">Download Image</string>
+<string-array name="urls">
+    <item> image1</item>
+    </string-array>
+
+
+
+    <string-array name="imageurls">
+
+
+
+        <item>http://androidexample.com/media/webservice/LazyListView_images/image0.png</item>
+        <item>http://androidexample.com/media/webservice/LazyListView_images/image1.png</item>
+        <item>http://androidexample.com/media/webservice/LazyListView_images/image2.png</item>
+        <item>http://androidexample.com/media/webservice/LazyListView_images/image3.png</item>
+    <item>http://androidexample.com/media/webservice/LazyListView_images/image4.png</item>
+    <item>http://androidexample.com/media/webservice/LazyListView_images/image5.png</item>
+        <item>http://androidexample.com/media/webservice/LazyListView_images/image9.png</item>
+
+    </string-array>
+</resources>

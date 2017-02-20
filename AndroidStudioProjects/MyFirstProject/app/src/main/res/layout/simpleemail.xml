@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="30">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+            <TextView
+                android:id="@+id/txtemail1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="30"
+                android:text="To"
+
+                />
+
+            <EditText
+                android:id="@+id/edtemaito"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="30" />
+
+            <TextView
+                android:id="@+id/txtemail2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="30"
+                android:text="Subject" />
+
+            <EditText
+                android:id="@+id/edtemaisubject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txtemai"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="30"
+                android:text="compose email"></TextView>
+
+            <EditText
+                android:id="@+id/edtemailcompose"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="30" />
+
+            <Button
+                android:id="@+id/btnemailsend"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="30"></Button>
+
+                <DigitalClock
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

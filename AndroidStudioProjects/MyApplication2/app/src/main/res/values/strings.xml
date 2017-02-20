@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="hello_word">Hello Word</string>
+    <string name="action_setting">Setting</string>
+
+
+    <string-array name="urls">
+        <item>Image1</item>
+        <item>Image2</item>
+        <item>Image3</item>
+
+        <item>Image4</item>
+
+        <item>Image5</item>
+
+        <item>Image6</item>
+
+
+    </string-array>
+    <string-array name="imageUrls">
+        <item>http://www4.images.coolspotters.com/photos/201023/dexter-and-dexter-morgan-profile.jpg</item>
+        <item>http://www.sideshowtoy.com/mas_assets/jpg/4609_press02-001.jpg</item>
+        <item>http://www4.images.coolspotters.com/photos/201023/dexter-and-dexter-morgan-profile.jpg</item>
+        <item> http://images.gamersyde.com/image_halo_4-19340-2311_0001.jpg</item>
+        <item></item>
+    </string-array>
+</resources>

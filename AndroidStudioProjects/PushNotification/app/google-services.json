@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "908688227634",
+    "firebase_url": "https://textmessage-59490.firebaseio.com",
+    "project_id": "textmessage-59490",
+    "storage_bucket": "textmessage-59490.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:908688227634:android:b231358f6e4e9082",
+        "android_client_info": {
+          "package_name": "com.example.admin_gyan.pushnotification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "908688227634-8tnqe4q191tv8kv81bt87gj10ruam812.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoqhX2QFu0x8iQUjU7goY5ftzAN-Ed6vM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

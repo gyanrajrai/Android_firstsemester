@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minHeight="294dp"
+    android:minWidth="72dp"
+    android:previewImage="@color/colorAccent"
+    android:configure="com.example.admin_gyan.myapplication_weigets.MainActivity"
+    android:resizeMode="horizontal"
+    android:initialLayout="@layout/wedget">
+
+
+</appwidget-provider>
